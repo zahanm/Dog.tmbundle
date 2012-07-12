@@ -3,6 +3,77 @@
   "scopeName": "source.dog",
   "fileTypes": [ "dog" ],
   "patterns": [
+  {
+      "end": "\\n",
+      "begin": "#",
+      "beginCaptures": {
+          "0": {
+              "name": "punctuation.definition.comment.dog"
+          }
+      },
+      "name": "comment.line.number-sign.dog"
+  },
+  {
+      "match": "\\b([1-9]+[0-9]*|0)",
+      "name": "constant.numeric.integer.decimal.dog"
+  },
+  {
+      "match": "(?i)\\b(if|else|while|with|break|continue|pass|return|listen|on|each)\\b",
+      "comment": "keywords that delimit flow blocks or alter flow from within a block",
+      "name": "keyword.control.flow.dog"
+  },
+  {
+      "match": "(?i)\\b(in|of|for|as|assert|delete|print|notify|ask|compute|define)\\b",
+      "name": "keyword.other.dog",
+      "comment": "keywords that haven't fit into other groups (yet)."
+  },
+  {
+      "match": "\\=",
+      "name": "keyword.operator.assignment.dog"
+  },
+  {
+      "end": "((?<=\")(\")|\")|(\\n)",
+      "begin": "([uU]R)(\")",
+      "beginCaptures": {
+          "1": {
+              "name": "punctuation.definition.string.begin.dog"
+          }
+      },
+      "comment": "double-quoted raw string",
+      "endCaptures": {
+          "1": {
+              "name": "punctuation.definition.string.end.dog"
+          },
+          "2": {
+              "name": "meta.empty-string.double.dog"
+          },
+          "3": {
+              "name": "invalid.illegal.unclosed-string.dog"
+          }
+      },
+      "contentName": "storage.type.string.dog",
+      "name": "string.quoted.double.single-line.dog"
+  },
+  {
+      "match": "(?<!')(')(('))(?!')",
+      "captures": {
+          "1": {
+              "name": "punctuation.definition.string.begin.dog"
+          },
+          "2": {
+              "name": "punctuation.definition.string.end.dog"
+          },
+          "3": {
+              "name": "meta.empty-string.single.dog"
+          }
+      },
+      "name": "string.quoted.single.single-line.dog"
+  },
+  {
+      "match": "(?i)\\b(public|person)\\b",
+      "comment": "Language Variables",
+      "name": "variable.language.python"
+  }
   ],
   "uuid": "1C3E6794-F3C0-4467-8F15-A59810923D46"
 }
