@@ -1,8 +1,8 @@
 {
-  "name": "Syntax Name",
-  "scopeName": "source.syntax_name",
-  "fileTypes": [""],
+  "name": "Dog",
+  "scopeName": "source.dog",
+  "fileTypes": [ "dog" ],
   "patterns": [
   ],
-  "uuid": "ca03e751-04ef-4330-9a6b-9b99aae1c418"
+  "uuid": "1C3E6794-F3C0-4467-8F15-A59810923D46"
 }
