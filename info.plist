@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>m@mnunaz.pbz</string>
+	<key>contactName</key>
+	<string>Zahan Malkani</string>
+	<key>description</key>
+	<string>Support for the &lt;a href="http://jabber.wocky.org/"&gt;Dog&lt;/a&gt; programming language.</string>
+	<key>name</key>
+	<string>Dog</string>
+	<key>uuid</key>
+	<string>49B7C71D-23F5-46F4-991E-0FD1C3A095E9</string>
+</dict>
+</plist>
