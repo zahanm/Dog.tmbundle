@@ -56,7 +56,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>([uU]R)(")</string>
+			<string>(")</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>

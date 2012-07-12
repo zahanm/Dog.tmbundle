@@ -33,7 +33,7 @@
   },
   {
       "end": "((?<=\")(\")|\")|(\\n)",
-      "begin": "([uU]R)(\")",
+      "begin": "(\")",
       "beginCaptures": {
           "1": {
               "name": "punctuation.definition.string.begin.dog"
