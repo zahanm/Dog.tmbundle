@@ -39,7 +39,7 @@
               "name": "punctuation.definition.string.begin.dog"
           }
       },
-      "comment": "double-quoted raw string",
+      "comment": "double-quoted string",
       "endCaptures": {
           "1": {
               "name": "punctuation.definition.string.end.dog"
@@ -51,20 +51,23 @@
               "name": "invalid.illegal.unclosed-string.dog"
           }
       },
-      "contentName": "storage.type.string.dog",
       "name": "string.quoted.double.single-line.dog"
   },
   {
-      "match": "(?<!')(')(('))(?!')",
-      "captures": {
+      "end": "(')|(\\n)",
+      "begin": "(')",
+      "beginCaptures": {
           "1": {
               "name": "punctuation.definition.string.begin.dog"
-          },
-          "2": {
+          }
+      },
+      "comment": "single quoted raw string",
+      "endCaptures": {
+          "1": {
               "name": "punctuation.definition.string.end.dog"
           },
-          "3": {
-              "name": "meta.empty-string.single.dog"
+          "2": {
+              "name": "invalid.illegal.unclosed-string.dog"
           }
       },
       "name": "string.quoted.single.single-line.dog"

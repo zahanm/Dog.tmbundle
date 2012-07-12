@@ -66,9 +66,7 @@
 				</dict>
 			</dict>
 			<key>comment</key>
-			<string>double-quoted raw string</string>
-			<key>contentName</key>
-			<string>storage.type.string.dog</string>
+			<string>double-quoted string</string>
 			<key>end</key>
 			<string>((?&lt;=")(")|")|(\n)</string>
 			<key>endCaptures</key>
@@ -93,26 +91,33 @@
 			<string>string.quoted.double.single-line.dog</string>
 		</dict>
 		<dict>
-			<key>captures</key>
+			<key>begin</key>
+			<string>(')</string>
+			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
 					<string>punctuation.definition.string.begin.dog</string>
 				</dict>
-				<key>2</key>
+			</dict>
+			<key>comment</key>
+			<string>single quoted raw string</string>
+			<key>end</key>
+			<string>(')|(\n)</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
 				<dict>
 					<key>name</key>
 					<string>punctuation.definition.string.end.dog</string>
 				</dict>
-				<key>3</key>
+				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>meta.empty-string.single.dog</string>
+					<string>invalid.illegal.unclosed-string.dog</string>
 				</dict>
 			</dict>
-			<key>match</key>
-			<string>(?&lt;!')(')(('))(?!')</string>
 			<key>name</key>
 			<string>string.quoted.single.single-line.dog</string>
 		</dict>
