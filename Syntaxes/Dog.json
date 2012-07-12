@@ -1,0 +1,8 @@
+{
+  "name": "Syntax Name",
+  "scopeName": "source.syntax_name",
+  "fileTypes": [""],
+  "patterns": [
+  ],
+  "uuid": "ca03e751-04ef-4330-9a6b-9b99aae1c418"
+}
