@@ -73,7 +73,7 @@
       "name": "string.quoted.single.single-line.dog"
   },
   {
-      "match": "(?i)\\b(public|person)\\b",
+      "match": "(?i)\\b(public|person|http|email|sms|stream)\\b",
       "comment": "Language Variables",
       "name": "variable.language.dog"
   }

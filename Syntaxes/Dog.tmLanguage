@@ -125,7 +125,7 @@
 			<key>comment</key>
 			<string>Language Variables</string>
 			<key>match</key>
-			<string>(?i)\b(public|person)\b</string>
+			<string>(?i)\b(public|person|http|email|sms|stream)\b</string>
 			<key>name</key>
 			<string>variable.language.dog</string>
 		</dict>
