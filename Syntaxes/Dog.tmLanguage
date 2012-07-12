@@ -127,7 +127,7 @@
 			<key>match</key>
 			<string>(?i)\b(public|person)\b</string>
 			<key>name</key>
-			<string>variable.language.python</string>
+			<string>variable.language.dog</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

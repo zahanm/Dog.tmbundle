@@ -75,7 +75,7 @@
   {
       "match": "(?i)\\b(public|person)\\b",
       "comment": "Language Variables",
-      "name": "variable.language.python"
+      "name": "variable.language.dog"
   }
   ],
   "uuid": "1C3E6794-F3C0-4467-8F15-A59810923D46"
