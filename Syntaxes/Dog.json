@@ -23,7 +23,7 @@
       "name": "keyword.control.flow.dog"
   },
   {
-      "match": "(?i)\\b(in|of|for|as|assert|delete|print|notify|ask|compute|define|to|via)\\b",
+      "match": "(?i)\\b(in|of|for|as|assert|delete|print|notify|ask|compute|define|to|via|using)\\b",
       "name": "keyword.other.dog",
       "comment": "keywords that haven't fit into other groups (yet)."
   },

@@ -44,7 +44,7 @@
 			<key>comment</key>
 			<string>keywords that haven't fit into other groups (yet).</string>
 			<key>match</key>
-			<string>(?i)\b(in|of|for|as|assert|delete|print|notify|ask|compute|define|to|via)\b</string>
+			<string>(?i)\b(in|of|for|as|assert|delete|print|notify|ask|compute|define|to|via|using)\b</string>
 			<key>name</key>
 			<string>keyword.other.dog</string>
 		</dict>
