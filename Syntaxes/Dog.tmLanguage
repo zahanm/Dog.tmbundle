@@ -44,7 +44,7 @@
 			<key>comment</key>
 			<string>keywords that haven't fit into other groups (yet).</string>
 			<key>match</key>
-			<string>(?i)\b(in|of|for|as|assert|delete|print|notify|ask|compute|define|to|via|using)\b</string>
+			<string>(?i)\b(in|of|for|as|assert|delete|print|notify|ask|compute|define|to|via|using|from|add|where|and|or)\b</string>
 			<key>name</key>
 			<string>keyword.other.dog</string>
 		</dict>
@@ -104,18 +104,13 @@
 			<key>comment</key>
 			<string>single quoted raw string</string>
 			<key>end</key>
-			<string>(')|(\n)</string>
+			<string>(')</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
 					<string>punctuation.definition.string.end.dog</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>invalid.illegal.unclosed-string.dog</string>
 				</dict>
 			</dict>
 			<key>name</key>
