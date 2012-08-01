@@ -91,28 +91,10 @@
 			<string>string.quoted.double.single-line.dog</string>
 		</dict>
 		<dict>
-			<key>begin</key>
-			<string>(')</string>
-			<key>beginCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.begin.dog</string>
-				</dict>
-			</dict>
 			<key>comment</key>
-			<string>single quoted raw string</string>
-			<key>end</key>
-			<string>(')</string>
-			<key>endCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.end.dog</string>
-				</dict>
-			</dict>
+			<string>Language Variables</string>
+			<key>match</key>
+			<string>'.*'</string>
 			<key>name</key>
 			<string>string.quoted.single.single-line.dog</string>
 		</dict>

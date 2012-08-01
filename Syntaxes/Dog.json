@@ -54,19 +54,8 @@
       "name": "string.quoted.double.single-line.dog"
   },
   {
-      "end": "(')",
-      "begin": "(')",
-      "beginCaptures": {
-          "1": {
-              "name": "punctuation.definition.string.begin.dog"
-          }
-      },
-      "comment": "single quoted raw string",
-      "endCaptures": {
-          "1": {
-              "name": "punctuation.definition.string.end.dog"
-          }
-      },
+      "match": "'.*'",
+      "comment": "Language Variables",
       "name": "string.quoted.single.single-line.dog"
   },
   {
