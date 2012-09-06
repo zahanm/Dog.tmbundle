@@ -36,7 +36,7 @@
 			<key>comment</key>
 			<string>keywords that delimit flow blocks or alter flow from within a block</string>
 			<key>match</key>
-			<string>(?i)\b(if|else|while|with|break|continue|pass|return|listen|on|each|do|end|wait)\b</string>
+			<string>(?i)\b(if|else|while|with|break|continue|pass|return|listen|on|each|do|end|wait|sequentially)\b</string>
 			<key>name</key>
 			<string>keyword.control.flow.dog</string>
 		</dict>
@@ -44,7 +44,7 @@
 			<key>comment</key>
 			<string>keywords that haven't fit into other groups (yet).</string>
 			<key>match</key>
-			<string>(?i)\b(in|of|for|as|assert|delete|print|notify|ask|compute|define|to|via|using|from|add|where|and|or|perform)\b</string>
+			<string>(?i)\b(in|of|for|as|assert|delete|print|notify|ask|compute|define|to|via|using|from|add|where|and|or|perform|all)\b</string>
 			<key>name</key>
 			<string>keyword.other.dog</string>
 		</dict>

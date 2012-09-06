@@ -18,12 +18,12 @@
       "name": "constant.numeric.integer.decimal.dog"
   },
   {
-      "match": "(?i)\\b(if|else|while|with|break|continue|pass|return|listen|on|each|do|end|wait)\\b",
+      "match": "(?i)\\b(if|else|while|with|break|continue|pass|return|listen|on|each|do|end|wait|sequentially)\\b",
       "comment": "keywords that delimit flow blocks or alter flow from within a block",
       "name": "keyword.control.flow.dog"
   },
   {
-      "match": "(?i)\\b(in|of|for|as|assert|delete|print|notify|ask|compute|define|to|via|using|from|add|where|and|or|perform)\\b",
+      "match": "(?i)\\b(in|of|for|as|assert|delete|print|notify|ask|compute|define|to|via|using|from|add|where|and|or|perform|all)\\b",
       "name": "keyword.other.dog",
       "comment": "keywords that haven't fit into other groups (yet)."
   },
