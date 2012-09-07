@@ -18,6 +18,11 @@
       "name": "constant.numeric.integer.decimal.dog"
   },
   {
+      "match": "(?i)\\b(true|false|yes|no|null)\\b",
+      "comment": "Language Constants",
+      "name": "constant.language.dog"
+  },
+  {
       "match": "(?i)\\b(if|else|while|with|break|continue|pass|return|listen|on|each|do|end|wait|sequentially)\\b",
       "comment": "keywords that delimit flow blocks or alter flow from within a block",
       "name": "keyword.control.flow.dog"
